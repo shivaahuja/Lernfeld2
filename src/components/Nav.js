@@ -9,6 +9,7 @@ function Nav () {
                 <ul className='nav-links'>
                     <Link to={'/'}><li>Home</li></Link>
                     <Link to={'/Berechnung'}><li>Berechnung</li></Link>
+                    <Link to={'/Berechnung2'}><li>Berechnung2</li></Link>
                 </ul>
             </nav>
         )   

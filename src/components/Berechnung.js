@@ -4,6 +4,7 @@ import React, { useState, useRef} from 'react';
 function Berechnung () {
 
     const[dauer, setDauer] = useState('')
+    const preis = 10;
 
     const dauerInput = useRef()
 
@@ -30,7 +31,7 @@ function Berechnung () {
                     
                     </form>
                     <div> 
-                        <h1>Preis: {dauer*10}</h1> 
+                        <h1>Preis: {dauer*preis}</h1> 
                     </div> 
                    
                                       
